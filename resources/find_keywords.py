@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import spacy
 import en_core_web_sm
 
-class FindSymbols(Resource):
+class FindKeywords(Resource):
   def get(self):
     
     ret = {}
